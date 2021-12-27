@@ -118,7 +118,7 @@ body {
 }
 
 .new-todo {
-	width: 70%;
+	width: 100%;
 }
 
 .new-todo-form, .new-todo-form__timer {
