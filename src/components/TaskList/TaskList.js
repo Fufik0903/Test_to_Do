@@ -18,7 +18,7 @@ const TaskList = (props) => {
     );
     const elementsAll = tasks.map((item) => (
         <Route
-            exact path="/all" render={() => (<TaskOnHook key={item.id}item={item}{...props}/>)}
+            exact path="/" render={() => (<TaskOnHook key={item.id}item={item}{...props}/>)}
         />
     ));
     return (
