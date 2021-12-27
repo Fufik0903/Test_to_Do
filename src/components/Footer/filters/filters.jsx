@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Filters = () => (
 	<ul className="filters">
-		<NavLink exact to="/all">
+		<NavLink exact to="/">
 			<li>
 				<button type="button">
 					All
