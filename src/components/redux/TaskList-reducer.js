@@ -8,30 +8,10 @@ const TYPE_TIMER = 'TYPE_TIMER';
 
 const initialState = {
     tasks: [
-        {
-            text: 'Completed task',
-            id: uuidv4(),
-            completed: 'completed',
-            checkbox: true,
-            status: 'completed'
-        },
-        {
-            text: 'Editing task',
-            id: uuidv4(),
-            completed: '',
-            checkbox: false,
-            status: 'active'
-        },
-        {
-            text: 'Active task',
-            id: uuidv4(),
-            completed: '',
-            checkbox: false,
-            status: 'active'
-        },
+       
     ],
-    itemsLeft: 1,
-    itemsActive: 2,
+    itemsLeft: 0,
+    itemsActive: 0,
 };
 const taskListReducer = (state = initialState, action) => {
     const stateCopy = {...state};
